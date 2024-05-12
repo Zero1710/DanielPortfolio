@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potfolio</title>
+    <link rel="icon" type="png" href="images/mylogodk.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <nav>
+     <a class="logo-link" href="#about"><img src="images/MyLogo.png" alt="logo"></a>
+     <input type="checkbox" id="sidebar-active">
+     <label for="sidebar-active" class="open-sidebar-button">
+         <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="32" height="32"><rect y="11" width="24" height="2" rx="1"/><rect y="4" width="24" height="2" rx="1"/><rect y="18" width="24" height="2" rx="1"/></svg>
+     </label>
+
+      <label id="overlay" for="sidebar-active"></label>
+      <div class="links-container">
+          <label for="sidebar-active" class="close-sidebar-button">
+             <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="32" height="32"><path d="M23.707.293h0a1,1,0,0,0-1.414,0L12,10.586,1.707.293a1,1,0,0,0-1.414,0h0a1,1,0,0,0,0,1.414L10.586,12,.293,22.293a1,1,0,0,0,0,1.414h0a1,1,0,0,0,1.414,0L12,13.414,22.293,23.707a1,1,0,0,0,1.414,0h0a1,1,0,0,0,0-1.414L13.414,12,23.707,1.707A1,1,0,0,0,23.707.293Z"/></svg>
+          </label>
+        <a class="links" href="#about">Home</a>
+        <a class="links" href="#projects">Projects</a>
+        <a class="links" href="#services">Services</a>
+        <a class="links" href="#contact">Contact</a>
+      </div>
+    </nav>
+    <section class="hidden" id="about">
+        <div class="about-section">
+          <h1 style="margin-top: 50px;">About</h1>
+          <div class="header">
+            <p class="content">Hello I'm</p>
+            <div class="typewriter"><h1 class="text">Daniel Kobalia</h1></div>
+            <p class="content">Front-End developer and UI/UX designer, Lorem ipsum dolor sit, 
+                amet consectetur adipisicing elit. Ea, repudiandae in doloribus voluptatem nihil 
+                tempora quo assumenda voluptas atque beatae animi cumque non,
+                 reiciendis aliquam possimus optio, dolor ipsam exercitationem. </p>
+            </div>
+            <div class="social-links">
+              <h2 class="social__title">Socials</h2>
+              <div class="social">
+              <a href="https://mail.google.com/mail/u/1/#inbox">
+                  <img class="gmail" src="images/google.png" alt="gmail">
+              </a>
+              <a href="https://www.facebook.com/danieli.qobalia.5">
+                  <img class="facebook" src="images/facebook.png" alt="facebook">
+              </a> 
+              <a href="https://www.instagram.com/daniel__kobalia?igsh=MXZxaDIwOXIydDAyNA%3D%3D&utm_source=qr">
+                  <img class="instagram" src="images/instagram.png" alt="instagram">
+              </a>
+              <a href="https://www.linkedin.com/in/deniel-kobalia-718a992a7/">
+                <img class="linked-in" src="images/linkedin.png" alt="linked-in">
+              </a>
+            </div>
+    </section>
+    <section class="hidden" id="projects">
+      <h2 style="text-align:center">Projects</h2>
+      <div class="row">
+        <div id="column" class="hidden">
+          <div class="card">
+            <img src="/images/comingsoon.jpg" alt="project 1" class="card-img" >
+            <div class="container">
+              <h2 class="card_title">Project 1</h2>
+            </div>
+          </div>
+        </div>
+        <div id="column" class="hidden">
+          <div class="card">
+            <img src="/images/comingsoon.jpg" class="card-img" alt="project 2" >
+            <div class="container">
+              <h2 class="card_title">Project 2</h2>
+            </div>
+          </div>
+        </div>
+        
+        <div id="column" class="hidden">
+          <div class="card">
+            <img src="/images/comingsoon.jpg" class="card-img" alt="project 3" >
+            <div class="container">
+              <h2 class="card_title">Project 3</h2>
+            </div>
+          </div>
+        </div>
+        <div id="column" class="hidden">
+          <div class="card">
+            <img src="/images/comingsoon.jpg" alt="project 4" class="card-img" >
+            <div class="container">
+              <h2 class="card_title">Project 4</h2>
+            </div>
+          </div>
+        </div>
+        <div id="column" class="hidden">
+          <div class="card">
+            <img src="/images/comingsoon.jpg" class="card-img" alt="project 5" >
+            <div class="container">
+              <h2 class="card_title">Project 5</h2>
+            </div>
+          </div>
+        </div>
+        <div id="column" class="hidden">
+          <div class="card">
+            <img src="/images/comingsoon.jpg" class="card-img" alt="project 6" >
+            <div class="container">
+              <h2 class="card_title">Project 6</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hidden" id="services">
+        <h2 style="text-align:center">Services</h2>
+        <div class="row">
+          <div id="column" class="hidden">
+            <div class="card">
+              <img src="/images/uiux.jpg" alt="uiux" class="card-img" >
+              <div class="container">
+                <h2>UI/UX Designer</h2>
+                <p class="title">Creative and modern design</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum 
+                  lorem<span id="dots">...</span><span id="more" style="display: none;">Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem.</span></p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+              </div>
+            </div>
+          </div>
+          <div id="column" class="hidden">
+            <div class="card">
+              <img src="/images/frontend.jpg" class="card-img" alt="front-end" >
+              <div class="container">
+                <h2>Front-End developer</h2>
+                <p class="title">Responsive design</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum 
+                  lorem<span id="dots1">...</span><span id="more1" style="display: none;">Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem.</span></p>
+                <button onclick="myFunction1()" id="myBtn1">Read more</button>
+              </div>
+            </div>
+          </div>
+          <div id="column" class="hidden">
+            <div class="card">
+              <img src="/images/react.jpg" class="card-img" alt="react" >
+              <div class="container">
+                <h2>React Developer</h2>
+                <p class="title">React</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum 
+                  lorem<span id="dots2">...</span><span id="more2" style="display: none;">Some text that describes me lorem ipsum ipsum lorem.Some text that describes me lorem ipsum ipsum lorem.</span></p>
+                <button onclick="myFunction2()" id="myBtn2">Read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="hidden" id="contact">
+        <h2 style="text-align: center;">Contact</h2>
+        <div class="contact_container">
+          <form onsubmit="sendEmail(); reset(); return false;">
+          <div class="contact-row">
+            <div class="col-25">
+              <label for="name">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" placeholder="Your name.." required>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="col-25">
+              <label for="email">Your Email</label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="Georgia">Georgia</option>
+                <option value="usa">Usa</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+            </div>
+          </div>
+          <br>
+          <div class="contact-row">
+            <input type="submit" value="submit">
+          </div>
+          </form>
+        </div>
+    </section>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
